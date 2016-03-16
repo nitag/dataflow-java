@@ -47,7 +47,7 @@ import com.google.cloud.genomics.dataflow.functions.PCoAnalysis.GraphResult;
  *      mvn install -DskipITs
  *
  * To run one test:
- *      mvn -Dit.test=VariantSimilarityITCase#testPaginatedLocal verify
+ *      mvn -Dit.test=VariantSimilarityITCase#testStreamingLocal verify
  *
  * See also http://maven.apache.org/surefire/maven-failsafe-plugin/examples/single-test.html
  */
