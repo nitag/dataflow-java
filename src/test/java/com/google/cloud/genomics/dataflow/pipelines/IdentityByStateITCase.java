@@ -44,11 +44,7 @@ import com.google.cloud.dataflow.sdk.util.gcsfs.GcsPath;
  *      mvn install -DskipITs
  *
  * To run one test:
-<<<<<<< HEAD
- *      mvn -Dit.test=IdentityByStateITCase#testPaginatedLocal verify
-=======
  *      mvn -Dit.test=IdentityByStateITCase#testStreamingLocal verify
->>>>>>> 0710585b129f3fb1fe92516b2a3eb72a5ba6e93b
  *
  * See also http://maven.apache.org/surefire/maven-failsafe-plugin/examples/single-test.html
  */
@@ -255,7 +251,3 @@ public class IdentityByStateITCase {
         CoreMatchers.allOf(CoreMatchers.hasItems(EXPECTED_RESULT)));
   }
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 0710585b129f3fb1fe92516b2a3eb72a5ba6e93b
